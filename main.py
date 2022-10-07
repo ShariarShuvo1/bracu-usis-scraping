@@ -7,7 +7,7 @@ class MainWindow(qtw.QWidget):
     def __init__(self):
         super().__init__()
         #Title
-        self.setWindowTitle("RS61 Class Schedule")
+        self.setWindowTitle("Fall 2022 Class Schedule")
         #form layout
         form_layout=qtw.QFormLayout()
         self.setLayout(form_layout)
